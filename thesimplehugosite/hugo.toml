@@ -2,3 +2,11 @@ baseURL = 'https://hovanja2011.github.io/'
 languageCode = 'en-us'
 title = 'The test hugo site'
 theme = 'lightbi-hugo'
+
+[Author]
+  name = "Ann Hovanskaya"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
