@@ -1,10 +1,23 @@
 baseURL = 'https://hovanja2011.github.io/'
-languageCode = 'en-us'
 title = 'The test hugo site'
 theme = 'lightbi-hugo'
 
+defaultContentLanguage = 'ru'
+defaultContentLanguageInSubdir = true
+[languages]
+    [languages.en]
+        languageName = 'English'
+        weight = 2
+        contentDir = 'content/en'
+        title = 'Test hugo-site'
+    [languages.ru]
+        languageName = 'Russian'
+        weight = 1
+        contentDir = 'content/ru'
+        title = 'Тестовый hugo-сайт'
+  
 [Author]
-  name = "Ann Hovanskaya"
+    name = "Ann Hovanskaya"
 
 [[menu.main]]
     name = "Home"
