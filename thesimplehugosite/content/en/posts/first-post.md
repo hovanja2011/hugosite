@@ -1,11 +1,11 @@
 ---
-title: "First Post"
+title: "Первый пост"
 date: 2023-07-21T00:53:49+03:00
 draft: false
-Description  : 'It’s the first post. Content inside.'
+Description  : 'Это первый пост. Содержание внутри.'
 ---
 
-This is some content
+It is texts
 
 ```java
 public static void main(String[]args) {
